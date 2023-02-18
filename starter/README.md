@@ -1,38 +1,26 @@
-# Command Line Project
+# Command-line application
 
-  Line to command them
+  When a user is prompted for information about the application repository then a high-quality, professional README.md
 
   ## Table of Contents 
-  
-    
   * [Installation](#installation)
-    
   * [Usage](#usage)
-    
   * [License](#license)
-    
   * [Contributing](#contributing)
-    
-  * [Username](#username)
-    
-  * [Email](#email)
-    
+  * [Questions](#questions)
+
   ## Installation
-  Command with caution
+  When a user enters the project title then it is displayed as the title of the README
 
   ## Usage 
-  Use it anyhow you like
+  this information is added to the sections of the README entitled Description
 
   ## License
-  ISC [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+  Mozilla [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
   ## Contributing
-  Contribute wella
+  which license the application is covered under
 
-  ## Username
-  Eric
-
-  ## Email
-  ericc@gmail.com
+  ## Questions
+  If you have any questions, please feel free to contact me at eric@gmail.com. You can also find more of my work at my [GitHub profile](https://github.com/erickuby).
   
-
