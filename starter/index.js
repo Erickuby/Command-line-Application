@@ -32,7 +32,8 @@ const questions = [
     message: 'Please enter the usage information for your project:',
   },
   {
-    type: 'input',
+    type: 'list',
+    choices: ['MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)', 'GPL [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)', 'IBM [![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)', 'ISC [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)', 'Mozilla [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)', 'SIL [![License: Open Font-1.1](https://img.shields.io/badge/License-OFL_1.1-lightgreen.svg)](https://opensource.org/licenses/OFL-1.1)',],
     name: 'license',
     message: 'Please enter the license for your project:',
   },
@@ -43,13 +44,13 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'tests',
-    message: 'Please enter the test instructions for your project:',
+    name: 'username',
+    message: 'Please enter your Github username:',
   },
   {
     type: 'input',
-    name: 'questions',
-    message: 'Please enter the frequently asked questions and answers for your project:',
+    name: 'email',
+    message: 'Please enter Github email address:',
   },
 ];
 
