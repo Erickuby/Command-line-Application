@@ -51,6 +51,8 @@ Finally, a message is logged to the console indicating whether the README.md fil
 
 Overall, this code prompts the user for information about their project, generates a markdown file from that information, and then writes the markdown file to the file system.
 
+Walkthrough video - https://bit.ly/3YJTU9f
+
 ---
 
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
