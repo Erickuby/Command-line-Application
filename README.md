@@ -39,51 +39,17 @@ node index.js
     - When a user enters their email address then this is added to the section of the README entitled Questions, with instructions on how to reach them with additional questions
     - When a user clicks on the links in the **Table of Contents** then they are taken to the corresponding section of the README
 
-## Getting Started
+## The Completed Code
 
-Here are some guidelines to help you get started:
+The code defines an array of questions to be asked to the user using the inquirer library, which includes the title, description, table of contents, installation, usage, license, contributing, tests, and frequently asked questions and answers for a project.
 
-- Create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
+The code also defines a writeToFile function that takes a filename and some data as input, and writes the data to the file with the given filename in the current working directory.
 
-- Make sure that your repo includes a `package.json` with the required dependencies. You can create one by running `npm init` when you first set up the project, before installing any dependencies.
+The init function uses inquirer to prompt the user with the array of questions and then generates the markdown for the README file using the generateMarkdown function, passing the user's answers as an argument. The writeToFile function is then called with the filename and markdown, which writes the markdown to a file named README.md in the current working directory.
 
-## Grading Requirements
+Finally, a message is logged to the console indicating whether the README.md file was successfully created or if an error occurred.
 
-This Challenge is graded based on the following criteria:
-
-### Deliverables: 20%
-
-- A sample README generated using the application must be submitted.
-
-- Your GitHub repository containing your application code.
-
-### Technical Acceptance Criteria: 55%
-
-- Satisfies all of the above acceptance criteria plus the following:
-
-  - Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
-
-### Repository Quality: 25%
-
-- Repository has a unique name.
-
-- Repository follows best practices for file structure and naming conventions.
-
-- Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-- Repository contains multiple descriptive commit messages.
-
-- Repository contains a high-quality README with description and a link to walkthrough video.
-
-## Review
-
-You are required to submit the following for review:
-
-- A walkthrough video demonstrating the functionality of the application.
-
-- A sample README.md file for a project repository generated using your application
-
-- The URL of the GitHub repository, with a unique name and a README describing the project
+Overall, this code prompts the user for information about their project, generates a markdown file from that information, and then writes the markdown file to the file system.
 
 ---
 
