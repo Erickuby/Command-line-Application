@@ -10,17 +10,17 @@
   * [Questions](#questions)
 
   ## Installation
-  When a user enters the project title then it is displayed as the title of the README
+  Installation, Usage, Contributing, and Tests
 
   ## Usage 
-  this information is added to the sections of the README entitled Description
+  When a user chooses a license for their application
 
   ## License
-  Mozilla [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+  SIL [![License: Open Font-1.1](https://img.shields.io/badge/License-OFL_1.1-lightgreen.svg)](https://opensource.org/licenses/OFL-1.1)
 
   ## Contributing
-  which license the application is covered under
+  When a user enters their GitHub username
 
   ## Questions
-  If you have any questions, please feel free to contact me at eric@gmail.com. You can also find more of my work at my [GitHub profile](https://github.com/erickuby).
+  If you have any questions, please feel free to contact me at ericcnwankwo@gmail.com. You can also find more of my work at my [GitHub profile](https://github.com/Erickuby).
   
