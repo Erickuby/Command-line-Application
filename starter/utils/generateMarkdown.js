@@ -23,6 +23,8 @@ function generateMarkdown(data) {
   ## Contributing
   ${data.contributing}
 
+  ## Questions
+  If you have any questions, please feel free to contact me at ${data.email}. You can also find more of my work at my [GitHub profile](https://github.com/${data.username}).
   
   `;
 }
